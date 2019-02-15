@@ -7,7 +7,34 @@ I am interested in many things.
 ### Cars
 My favourite car manufacturer is General Motors, with my favourite division being Pontiac. My favourite car? That's tough. However, I do have favourite cars for different categories.
 
+| Category   | Car  | Picture  |
+| ------------- |:-------------:| -----:|
+| Subcompact Car | | |
+| Compact Car | Volkswagen Golf  | |
+| Mid-Size Car | | |
+| Full-Size Car | Dodge Charger (2008)| |
+| Luxury Compact Car | | |
+| Luxury Mid-Size Car | | |
+| Luxury Full-Size Car | Mercedes-Benz S-Class | |
+| Supercar | | |
+| Pony Car | Chevrolet Camaro (2010)| |
+| Muscle Car | Dodge Challenger (2010)| |
+| Minivan | | |
+| Full-size Van | Chevrolet Express | |
+| Subcompact SUV | | |
+| Compact SUV | | |
+| Mid-size SUV | | |
+| Mid-Size SUV (3-row) | Volkswagen Atlas | |
+| Full-size SUV | Chevrolet Suburban (2010)| |
+| Luxury Compact SUV | | |
+| Luxury Mid-size SUV | Cadillac XT5 | |
+| Luxury Mid-Size SUV (3-row) |  | |
+| Compact Pickup Truck | Ford Ranger | |
+| Mid-Size Pickup Truck | Chevrolet Colorado | |
+| Full-size Pickup Truck | Chevrolet Silverado | |
+
 ### Government and Politics
+I am a right-winger. I am a proud supporter of the Ontario Progressive Conservative Party and the Conservative Party of Canada.
 
 ## Music
 I listen to rock music. 
@@ -19,6 +46,7 @@ Some other artists I like are: AC/DC, Led Zeppelin, Aerosmith, Metallica, and Qu
 My favourite song? Dust N' Bones by Guns N' Roses. 
 
 My favourite album? Chinese Democracy by Guns N' Roses.
+<dl> <iframe width="560" height="315" src="https://www.youtube.com/embed/kPtCILgte10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </dl>
 
 ## Video Games
 Genres of video games I like to play are: grand strategy, 
