@@ -1,11 +1,6 @@
 ## WELCOME TO ~~THE JUNGLE~~ ANDREW DENG'S PERSONAL WEBSITE
 
-So yeah, this is a little thing I made.
+| [HOME](./index.md "Home Page")  | [Math Formulas](./math-formulas.md "Math Formulas") | [Cars](./cars.md "Cars") | [About Me](./aboutme.md "About Me") | [Your Mother's So Fat Joke Generator](./Your Mother Generator.html "Yo mama so fat...") |
+| ------------- |-------------| ------------- | ------------- | ------------- |
 
-
-Link to Your Mother generator: [Click here](./Your Mother Generator.html)
-
-Link to Math Formulas: [Click here](./math-formulas.md)
-
-Link to About Me: [Click here](./aboutme.md)
 
