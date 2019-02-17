@@ -72,15 +72,15 @@ Twitter:
 
 NationStates: 
 
-[Empire of Andrepoiy] (https://www.nationstates.net/nation=andrepoiy "Andrepoiy")
+[Empire of Andrepoiy](https://www.nationstates.net/nation=andrepoiy "Andrepoiy")
 
-[Free Land of Nogovermmentland] (https://www.nationstates.net/nation=nogovermmentland "Nogovermmentland")
+[Free Land of Nogovermmentland](https://www.nationstates.net/nation=nogovermmentland "Nogovermmentland")
 
-[The Oppressed Peoples of Tyrannicalland] (https://www.nationstates.net/nation=tyrannicalland "Tyrannicalland")
+[The Oppressed Peoples of Tyrannicalland](https://www.nationstates.net/nation=tyrannicalland "Tyrannicalland")
 
-[The Community of Primitiveland] (https://www.nationstates.net/nation=primitiveland "Primitiveland")
+[The Community of Primitiveland](https://www.nationstates.net/nation=primitiveland "Primitiveland")
 
-[The Republic of Communistaland] (https://www.nationstates.net/nation=communistaland "Communistaland")
+[The Republic of Communistaland](https://www.nationstates.net/nation=communistaland "Communistaland")
 
 YouTube: [andrepoiy111999 - my general channel](https://www.youtube.com/channel/UC_pWo3mhl5FFQZacisUxYFw "andrepoiy111999")
 
