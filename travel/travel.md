@@ -2,7 +2,18 @@
 
 I have visited a few places in the world. Here's a map.
 
-![Map of places I've been to](./travel/pictures/PlacesVisited.png)
+![Map of places I've been to](./pictures/PlacesVisited.png)
+
+Red = Ontario, where I reside.
+
+Blue = Visited
+
+Green = Transited through via car
+
+Yellowish-Green = Transited through via train
+
+Yellow = Transited through via bus
+
 
 ## Canada
 
