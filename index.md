@@ -5,4 +5,4 @@
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | 
 | | | | | |
 
-
+My name is Andrew Deng, and I am a 10th grade student. Welcome to my website, where you will find info about me, pictures of places I've traveled to, pictures of cars, and all my accounts. I have also compiled a list of math formulas, should you require. I've also got some fun stuff, like a Your Mother joke generator.
