@@ -82,11 +82,21 @@ NationStates:
 
 [The Republic of Communistaland](https://www.nationstates.net/nation=communistaland "Communistaland")
 
-YouTube: [andrepoiy111999 - my general channel](https://www.youtube.com/channel/UC_pWo3mhl5FFQZacisUxYFw "andrepoiy111999")
+YouTube: 
+
+[andrepoiy111999 - my general channel](https://www.youtube.com/channel/UC_pWo3mhl5FFQZacisUxYFw "andrepoiy111999")
 
 [andrepoiyGaming - my dead "gaming" channel, but I have 3 useful Roblox tutorials](https://www.youtube.com/channel/UCqct6OLa7s4cHA8Od1Du2FA "andrepoiyGaming")
 
 [The Model Critique - my model review channel, also dead](https://www.youtube.com/channel/UCPR6uW-0zuIL8Y_cC1F-Ttw "The Model Critique")
+
+webDiplomacy:
+
+[webDiplomacy](http://webdiplomacy.net/profile.php?userID=104568 "webDiplomacy")
+
+Discord: andrepoiy (Andrew)#1498
+
+
 
 
 
