@@ -1,7 +1,7 @@
 ## WELCOME TO ~~THE JUNGLE~~ ANDREW DENG'S PERSONAL WEBSITE
 <table>
   <tr>
-    <td><a href="(./index "Home Page")">Home Page</a></td>
+    <td><a href="(./index)">Home Page</a></td>
     <td><a href="(./math-formulas "Math Formulas")">Math Formulas</a></td>
     <td><a href="(./cars/cars "Cars")">Cars</a></td>
     <td><a href="(./travel/travel "Travels")">Travels</a></td>
