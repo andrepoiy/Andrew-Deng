@@ -4,6 +4,19 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
+    <h1> Recent Artists </h1>
+<script>
+$(document).ready(function() {
+    $.getJSON("http://ws.audioscrobbler.com /2.0/?method=user.gettopalbums&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&format=json", function(json) {
+        var html = '';
+        $.each(json.recenttracks.track, function(i, item) {
+            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
+        });
+        $('#result').append(html);
+    });
+});
+</script>    
+    <h1> Top Artists </h1>
 <script>
 $(document).ready(function() {
     $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getTopArtists&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&limit=500&format=json&callback=?", function(json) {
