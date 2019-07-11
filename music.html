@@ -9,7 +9,7 @@
 $(document).ready(function() {
     $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&nowplaying=true&format=json", function(json) {
         var html = '';
-        $.each(json.toptracks.track, function(i, item) {
+        $.each(json.recenttracks.track, function(i, item) {
             html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
         });
         $('#result').append(html);
@@ -35,8 +35,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&format=json", function(json) {
         var html = '';
-        $.each(json.topalbums.album.artist, function(i, item) {
-            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
+        $.each(json.topalbums.album, function(i, item) {
+            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
         });
         $('#result2').append(html);
     });
