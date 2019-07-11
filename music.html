@@ -16,6 +16,7 @@ $(document).ready(function() {
     });
 });
 </script>        
+    <div id="result"></div>
     <h1> Top Albums </h1>
 <script>
 $(document).ready(function() {
@@ -28,13 +29,14 @@ $(document).ready(function() {
     });
 });
 </script>    
+    <div id="result"></div>
     <h1> Top Artists </h1>
 <script>
 $(document).ready(function() {
     $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getTopArtists&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&limit=500&format=json&callback=?", function(json) {
         var html = '';
         $.each(json.topartists.artist, function(i, item) {
-            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + item.image +"</a></p>";
+            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount +"</a></p>";
         });
         $('#result').append(html);
     });
