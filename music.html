@@ -4,10 +4,10 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-<h1> Top Tracks </h1>
+<h1> Recent Tracks </h1>
 <script>
 $(document).ready(function() {
-    $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&format=json", function(json) {
+    $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&nowplaying=true&format=json", function(json) {
         var html = '';
         $.each(json.toptracks.track, function(i, item) {
             html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
@@ -16,14 +16,27 @@ $(document).ready(function() {
     });
 });
 </script>        
-    <div id="result"></div>
+    <div id="result"></div>    
+<h1> Top Tracks </h1>
+<script>
+$(document).ready(function() {
+    $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&period=overall&format=json", function(json) {
+        var html = '';
+        $.each(json.toptracks.track, function(i, item) {
+            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
+        });
+        $('#result1').append(html);
+    });
+});
+</script>        
+    <div id="result1"></div>
     <h1> Top Albums </h1>
 <script>
 $(document).ready(function() {
     $.getJSON("http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=andrepoiy&api_key=2bbd42270d18380fdb5999f223ae15a3&format=json", function(json) {
         var html = '';
         $.each(json.topalbums.album.artist, function(i, item) {
-            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
+            html += "<p><a href=" + item.url + " target='_blank'>" + item.name + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
         });
         $('#result2').append(html);
     });
