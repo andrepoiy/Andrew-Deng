@@ -25,11 +25,11 @@ $(document).ready(function() {
         $.each(json.topalbums.album.artist, function(i, item) {
             html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount + "</a></p>";
         });
-        $('#result').append(html);
+        $('#result2').append(html);
     });
 });
 </script>    
-    <div id="result"></div>
+    <div id="result2"></div>
     <h1> Top Artists </h1>
 <script>
 $(document).ready(function() {
@@ -38,10 +38,10 @@ $(document).ready(function() {
         $.each(json.topartists.artist, function(i, item) {
             html += "<p><a href=" + item.url + " target='_blank'>" + item.name + " - " + "Play count : " +item.playcount +"</a></p>";
         });
-        $('#result').append(html);
+        $('#result3').append(html);
     });
 });
 </script>
-<div id="result"></div>
+<div id="result3"></div>
 </body>
 </html>
